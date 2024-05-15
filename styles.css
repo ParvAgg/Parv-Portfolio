@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 nav ul {
@@ -29,16 +31,35 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
     padding: 2em;
     margin: 1em 0;
     background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     margin-top: 0;
+    font-size: 2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.project {
+    margin-bottom: 1.5em;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.project p {
+    margin: 0.5em 0 0 0;
 }
 
 footer {
@@ -46,6 +67,9 @@ footer {
     padding: 1em 0;
     background-color: #333;
     color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 a {
